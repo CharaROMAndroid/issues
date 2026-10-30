@@ -10,7 +10,7 @@ body:
         - Read the directions [here](https://wiki.lineageos.org/how-to/bugreport)
 
         What not to report
-        - Bugs in unofficial builds or anything not downloaded from our official portal
+        - Bugs in unofficial builds or anything not downloaded from our official release page
         - Missing builds
         - Problems with the website
         - Asking for device support
@@ -24,17 +24,17 @@ body:
     attributes:
       label: Device Codename
       description: |
-        codename of the device you're using (ie: "mako", not "nexus 4")
-      placeholder: "mako"
+        codename of the device you're using (ie: "dre", not "nord n200")
+      placeholder: "dre"
     validations:
       required: true
 
   - type: input
     id: version
     attributes:
-      label: "LineageOS Version"
+      label: "CharaROM Version"
       description: "'Latest' is not a valid answer, please write the exact version number."
-      placeholder: "lineage-23.2"
+      placeholder: "CharaROM-v2"
     validations:
       required: true
 
@@ -67,7 +67,7 @@ body:
     id: mods
     attributes:
       label: System Modifications
-      placeholder: "google apps, magisk, etc"
+      placeholder: "kernelsu, magisk, etc"
 
   - type: textarea
     id: expected
